@@ -24,6 +24,22 @@
   color: white;
 }
 
+.wrong{
+  background-color: rgb(204, 0, 0);
+  border: 2px rgb(143, 0, 0) solid;
+  transform: scale(1.04);
+  transition: 0.1s;
+  box-shadow: 0px 2px 10px 2px rgb(25, 25, 25);
+  
+}
+.correct{
+  background-color: rgb(0, 204, 0);
+  border: 2px rgb(0, 143, 0) solid;
+  transform: scale(1.04);
+  transition: 0.1s;
+  box-shadow: 0px 2px 10px 2px rgb(25, 25, 25);
+  
+}
 .App-link {
   color: #61dafb;
 }
